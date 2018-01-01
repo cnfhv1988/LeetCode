@@ -40,6 +40,6 @@ var intToRoman = function(num) {
         num %= div;
         div /= 10;
         i += 2
-        }
+    }
     return result;
 };
