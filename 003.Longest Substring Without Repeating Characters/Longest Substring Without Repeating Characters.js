@@ -2,16 +2,16 @@
  * @param {string} s
  * @return {number}
  */
-//beats 42.91% Javascript submissions
+//987 test cases passed, beats 42.91% of Javascript submissions
 var lengthOfLongestSubstring = function(s) {
-    var arr=[],max=0,i,len,index;
-    for(i=0,len=s.length;i<len;i++){
-        index = arr.indexOf(s[i]);
-        if(index >= 0){
-            max = Math.max(max,arr.length);
-            arr.splice(0,index+1);
-        }
-        arr.push(s[i]);  
+  var o = {}, result = 0, index = 0;
+  for(var i = 0; i < s.length; i++) {
+    if(o.hasOwnProperty(s[i])) {
+      result = Math.max(result, i - index);
+      index = Math.max(index, o[s[i]] + 1);
     }
-    return Math.max(max,arr.length);
+    o[s[i]] = i;
+  }
+  result = Math.max(result, i - index);
+  return result;
 };
