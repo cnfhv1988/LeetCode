@@ -1,3 +1,8 @@
+/**
+ * @param {string} str
+ * @return {number}
+ */
+//beats 88.50% of Javascript submissions
 var myAtoi = function(str) {
 
     var MAX = Math.pow(2,31) - 1;
