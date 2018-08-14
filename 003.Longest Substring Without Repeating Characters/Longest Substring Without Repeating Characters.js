@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-//987 test cases passed, beats 42.91% of Javascript submissions
+//987 test cases passed, beats 75.33% of Javascript submissions
 var lengthOfLongestSubstring = function(s) {
   var o = {}, result = 0, index = 0;
   for(var i = 0; i < s.length; i++) {
