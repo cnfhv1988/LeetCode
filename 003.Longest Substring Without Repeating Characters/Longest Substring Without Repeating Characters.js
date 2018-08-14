@@ -2,6 +2,7 @@
  * @param {string} s
  * @return {number}
  */
+//beats 42.91% Javascript submissions
 var lengthOfLongestSubstring = function(s) {
     var arr=[],max=0,i,len,index;
     for(i=0,len=s.length;i<len;i++){
