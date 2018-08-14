@@ -10,7 +10,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-//beats 98.54% Javascript submissions
+//1563 test cases passed, beats 98.54% of Javascript submissions
 var addTwoNumbers = function(l1, l2) {
 
     if(!l1 && !l2) return null;
