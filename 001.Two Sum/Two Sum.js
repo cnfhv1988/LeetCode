@@ -3,11 +3,17 @@
  * @param {number} target
  * @return {number[]}
  */
-//29 test cases passed, beats 31.90% submissions.
+//29 test cases passed, beats 99.98% submissions.
 var twoSum = function(nums, target) {
-    for(var i=0;i<nums.length;i++){
-        if(nums.indexOf(target-nums[i],i+1) >= 0){
-            return [i,nums.indexOf(target-nums[i],i+1)];
+    var o = {};
+    var key;
+    nums.forEach(function (value, index) {
+        o[value] = index;
+    });
+    for(var i = 0; i < nums.length; i++){
+        key = target - nums[i];
+        if(o.hasOwnProperty(key) && i !== o[key]){
+            return [i, o[key]];
         }
     }
 };
