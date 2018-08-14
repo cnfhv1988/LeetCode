@@ -3,10 +3,10 @@ my solutions of leetcode
 
 Sequence|Problem|Test Cases|Runtime(ms)|Beats
 :-:|:-:|:-:|:-:|:-:
-001|[Two Sum](https://github.com/cnfhv1988/LeetCode/tree/master/001.Two%20Sum)|29|52ms|99.98%
-002|[Add Two Numbers](https://github.com/cnfhv1988/LeetCode/tree/master/002.Add%20Two%20Numbers)|1563|116ms|88.07%
-003|[Longest Substring Without Repeating Characters](https://github.com/cnfhv1988/LeetCode/tree/master/003.Longest%20Substring%20Without%20Repeating%20Characters)|983|142ms|42.91%
-004|[Median of Two Sorted Arrays](https://github.com/cnfhv1988/LeetCode/tree/master/004.Median%20of%20Two%20Sorted%20Arrays)|2080|209ms|10.29%
+001|[Two Sum](https://github.com/cnfhv1988/LeetCode/tree/master/001.Two%20Sum)|29|52|99.98%
+002|[Add Two Numbers](https://github.com/cnfhv1988/LeetCode/tree/master/002.Add%20Two%20Numbers)|1563|116|88.07%
+003|[Longest Substring Without Repeating Characters](https://github.com/cnfhv1988/LeetCode/tree/master/003.Longest%20Substring%20Without%20Repeating%20Characters)|983|142|42.91%
+004|[Median of Two Sorted Arrays](https://github.com/cnfhv1988/LeetCode/tree/master/004.Median%20of%20Two%20Sorted%20Arrays)|2080|209|10.29%
 005|[Longest Palindromic Substring](https://github.com/cnfhv1988/LeetCode/tree/master/005.Longest%20Palindromic%20Substring)|-|-|-
 006|[ZigZag Conversion](https://github.com/cnfhv1988/LeetCode/tree/master/006.ZigZag%20Conversion)|1158|139|33.98%
 007|[Reverse Integer](https://github.com/cnfhv1988/LeetCode/tree/master/007.Reverse%20Integer)|1032|72|97.39%
