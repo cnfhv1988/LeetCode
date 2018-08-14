@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-//29 test cases passed, beats 99.98% submissions.
+//29 test cases passed, beats 99.98% of Javascript submissions.
 var twoSum = function(nums, target) {
     var o = {};
     var key;
