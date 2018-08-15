@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {number}
  */
-//beats97.39% submissions
+//1032 test cases passed, beats97.39% of Javascript submissions
 var reverse = function(x) {
     var flag = !!(x >> 31);
     var result = 0, MAX = Math.pow(2,31) - 1, MIN = -Math.pow(2, 31)
