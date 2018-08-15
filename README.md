@@ -21,5 +21,5 @@ Sequence|Problem|Test Cases|Runtime(ms)|Beats
 016|3Sum Closest|-|-|-
 017|[Letter Combinations of a Phone Number](https://github.com/cnfhv1988/LeetCode/tree/master/017.Letter%20Combinations%20of%20a%20Phone%20Number)|25|98|4.25%
 018|4Sum|-|-|-
-019|[Remove Nth Node From End of List](https://github.com/cnfhv1988/LeetCode/tree/master/019.Remove%20Nth%20From%20End%20of%20List)|207|88|15.18%
+019|[Remove Nth Node From End of List](https://github.com/cnfhv1988/LeetCode/tree/master/019.Remove%20Nth%20From%20End%20of%20List)|208|56|99.85%
 020|[Valid Parenthese](https://github.com/cnfhv1988/LeetCode/tree/master/020.Valid%20Parentheses)|76|56|80.12%
