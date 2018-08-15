@@ -10,17 +10,20 @@
  * @param {number} n
  * @return {ListNode}
  */
+//208 test cases passed, beats 99.85 of Javascript submissions
 var removeNthFromEnd = function(head, n) {
-    var i=1;
-    var c1=head,c2=head;
-    while(i<=n){
-        c1=c1.next;
-        i++;
+
+    var index = new ListNode(0);
+    index.next = head;
+    var p1 = index, p2 = index, c = 0;
+    while(c < n) {
+        c++;
+        p1 = p1.next
     }
-    while(c1 != null && c1.next != null){
-        c1=c1.next;
-        c2=c2.next;
+    while(p1.next){
+        p1 = p1.next
+        p2 = p2.next
     }
-    c1 == null ? head = head.next : c2.next = c2.next.next;
-    return head;
+    p2.next = p2.next.next;
+    return index.next;
 };
