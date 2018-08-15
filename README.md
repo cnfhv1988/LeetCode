@@ -10,7 +10,7 @@ Sequence|Problem|Test Cases|Runtime(ms)|Beats
 005|[Longest Palindromic Substring](https://github.com/cnfhv1988/LeetCode/tree/master/005.Longest%20Palindromic%20Substring)|-|-|-
 006|[ZigZag Conversion](https://github.com/cnfhv1988/LeetCode/tree/master/006.ZigZag%20Conversion)|1158|139|33.98%
 007|[Reverse Integer](https://github.com/cnfhv1988/LeetCode/tree/master/007.Reverse%20Integer)|1032|72|97.39%
-008|[String to Integer](https://github.com/cnfhv1988/LeetCode/tree/master/008.String%20to%20Integer)|1079|76|88.50
+008|[String to Integer](https://github.com/cnfhv1988/LeetCode/tree/master/008.String%20to%20Integer)|1079|76|88.63%
 009|[Palindrome Number](https://github.com/cnfhv1988/LeetCode/tree/master/009.Palindrome%20Number)|11507|472|2.76%
 010|Regular Expression Matching|-|-|-
 011|[Container With%20Most Water](https://github.com/cnfhv1988/LeetCode/tree/master/011.Container%20With%20Most%20Water)|50|344|27.99%
